@@ -17,9 +17,9 @@ pipeline{
                 echo'Sonar Codequality'
                 sh '''
                 mvn clean verify sonar:sonar \
-                    -Dsonar.projectKey=Mobilestrore \
-                    -Dsonar.host.url=http://20.214.165.99:9000 \
-                    -Dsonar.login=sqp_d1d3cdffddda4baa7e414b7e3566e7fbba22e941
+                  -Dsonar.projectKey=Mobilestrore \
+                  -Dsonar.host.url=http://20.214.165.99:9000 \
+                  -Dsonar.login=sqp_a3ad1abb98c8b9c84dcc4f7732222583789ffe8e
                      '''
             }
         }
